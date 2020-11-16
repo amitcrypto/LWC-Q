@@ -9,7 +9,7 @@ QSATURNIN.InPlace.InverseNibblePermutation, 0, 0, 0, 0, 0, 0, 256, 0, in_place =
 QSATURNIN.InPlace.AddRoundKey, 256, 0, 0, 0, 0, 0, 512, 0, in_place = true, 1
 QSATURNIN.InPlace.AddRoundConstants, 0, 16, 0, 0, 0, 0, 256, 0, in_place = true, 1
 QSATURNIN.InPlace.RotateKey, 0, 0, 0, 0, 0, 0, 256, 0, in_place = true, 0
-QSATURNIN.InPlace.SubKeyGeneration, 0, 0, 0, 0, 0, 0, 256, 0, in_place = true - super-round = 10, , 0
+QSATURNIN.InPlace.SubKeyGeneration, 0, 0, 0, 0, 0, 0, 256, 0, in_place = true - super-round = 10, 0
 QSATURNIN.Round, 256, 0, 0, 0, 0, 0, 512, 0, state size is the same for all, 1
 QSATURNIN.Round, 11360, 2832, 4480, 0, 0, 10, 512, 5, round = 1, 94
 QSATURNIN.Round, 11360, 2816, 4480, 0, 0, 10, 512, 5, round = 2, 94
