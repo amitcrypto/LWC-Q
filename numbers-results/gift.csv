@@ -3,7 +3,7 @@ QGIFT.InPlace.GiftSbox, 66, 14, 28, 0, 0, 4, 4, 4, tower_field = false, 32
 QGIFT.InPlace.SubCells, 2112, 448, 896, 0, 0, 4, 128, 4, state size is the same for all, 32
 QGIFT.InPlace.PermBits, 0, 0, 0, 0, 0, 0, 128, 0, in_place = true - state size is the same for all, 0
 QGIFT.InPlace.AddRoundKey, 64, 0, 0, 0, 0, 0, 256, 0, widest = true - state size is the same for all, 1
-QGIFT.InPlace.KeySchedule, 0, 0, 0, 0, 0, 0, 128, 0, in_place = true, round = 40, 0
+QGIFT.InPlace.KeySchedule, 0, 0, 0, 0, 0, 0, 128, 0, in_place = true - round = 40, 0
 QGIFT.InPlace.AddConstants, 0, 4, 0, 0, 0, 0, 128, 0, widest = true - state size is the same for all, 1
 QGIFT.Round, 2176, 449, 896, 0, 0, 4, 256, 4, state size is the same for all, 33
 QGIFT.Round, 2176, 449, 896, 0, 0, 4, 256, 4, round = 1, 33
