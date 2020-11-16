@@ -14,4 +14,4 @@ The grover-blocks project contains implementations of Grover oracles for exhaust
 - Subodh Bijwe
 
 ## References 
-[1] Subodh Bijwe, Amit Kumar Chauhan, and Somitra Kumar Sanadhya, "Q# Implementation of Grover's Key Search on GIFT, SKINNY and SATURNIN", Under submission 2020. 
+[1] Amit Kumar Chauhan, Subodh Bijwe, and Somitra Kumar Sanadhya, "Q# Implementation of Grover's Key Search on GIFT, SKINNY and SATURNIN", Under submission 2020. 
