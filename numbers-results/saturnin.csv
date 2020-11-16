@@ -1,0 +1,37 @@
+operation, CNOT count, 1-qubit Clifford count, T count, R count, M count, T depth, initial width, extra width, comment, full depth
+QSATURNIN.InPlace.SaturninSboxZero, 164, 44, 70, 0, 0, 10, 4, 5, in_place = true, 86
+QSATURNIN.InPlace.SaturninSboxOne, 164, 44, 70, 0, 0, 10, 4, 5, in_place = true, 86
+QSATURNIN.InPlace.SubCells, 10496, 2816, 4480, 0, 0, 10, 256, 5, in_place = true, 86
+QSATURNIN.InPlace.NibblePermutation, 0, 0, 0, 0, 0, 0, 256, 0, in_place = true, 0
+QSATURNIN.InPlace.MixHalfWord, 38, 0, 0, 0, 0, 0, 16, 0, in_place = true, 7
+QSATURNIN.InPlace.MixColumns, 608, 0, 0, 0, 0, 0, 256, 0, in_place = true, 7
+QSATURNIN.InPlace.InverseNibblePermutation, 0, 0, 0, 0, 0, 0, 256, 0, in_place = true, 0
+QSATURNIN.InPlace.AddRoundKey, 256, 0, 0, 0, 0, 0, 512, 0, in_place = true, 1
+QSATURNIN.InPlace.AddRoundConstants, 0, 16, 0, 0, 0, 0, 256, 0, in_place = true, 1
+QSATURNIN.InPlace.RotateKey, 0, 0, 0, 0, 0, 0, 256, 0, in_place = true, 0
+QSATURNIN.InPlace.SubKeyGeneration, 0, 0, 0, 0, 0, 0, 256, 0, in_place = true, super-round = 10, , 0
+QSATURNIN.Round, 256, 0, 0, 0, 0, 0, 512, 0, state size is the same for all, 1
+QSATURNIN.Round, 11360, 2832, 4480, 0, 0, 10, 512, 5, round = 1, 94
+QSATURNIN.Round, 11360, 2816, 4480, 0, 0, 10, 512, 5, round = 2, 94
+QSATURNIN.Round, 11360, 2832, 4480, 0, 0, 10, 512, 5, round = 3, 94
+QSATURNIN.Round, 11360, 2816, 4480, 0, 0, 10, 512, 5, round = 4, 94
+QSATURNIN.Round, 11360, 2832, 4480, 0, 0, 10, 512, 5, round = 5, 94
+QSATURNIN.Round, 11360, 2816, 4480, 0, 0, 10, 512, 5, round = 6, 94
+QSATURNIN.Round, 11360, 2832, 4480, 0, 0, 10, 512, 5, round = 7, 94
+QSATURNIN.Round, 11360, 2816, 4480, 0, 0, 10, 512, 5, round = 8, 94
+QSATURNIN.Round, 11360, 2832, 4480, 0, 0, 10, 512, 5, round = 9, 94
+QSATURNIN.Round, 11360, 2816, 4480, 0, 0, 10, 512, 5, round = 10, 94
+QSATURNIN.Round, 11360, 2832, 4480, 0, 0, 10, 512, 5, round = 11, 94
+QSATURNIN.Round, 11360, 2816, 4480, 0, 0, 10, 512, 5, round = 12, 94
+QSATURNIN.Round, 11360, 2832, 4480, 0, 0, 10, 512, 5, round = 13, 94
+QSATURNIN.Round, 11360, 2816, 4480, 0, 0, 10, 512, 5, round = 14, 94
+QSATURNIN.Round, 11360, 2832, 4480, 0, 0, 10, 512, 5, round = 15, 94
+QSATURNIN.Round, 11360, 2816, 4480, 0, 0, 10, 512, 5, round = 16, 94
+QSATURNIN.Round, 11360, 2832, 4480, 0, 0, 10, 512, 5, round = 17, 94
+QSATURNIN.Round, 11360, 2816, 4480, 0, 0, 10, 512, 5, round = 18, 94
+QSATURNIN.Round, 11360, 2832, 4480, 0, 0, 10, 512, 5, round = 19, 94
+QSATURNIN.Round, 11360, 2816, 4480, 0, 0, 10, 512, 5, round = 20, 94
+QSATURNIN.SATURNIN_256_in-place, 455168, 112960, 179200, 0, 0, 400, 768, 5, in_place, 3763
+QSATURNIN.GroverOracle_256_in-place-MC_r1, 457197, 114980, 180220, 0, 255, 400, 513, 5376, in_place mixcolumn - r = 1, 3762
+QSATURNIN.GroverOracle_256_in-place-MC_r2, 914655, 229960, 360444, 0, 511, 400, 769, 11008, in_place mixcolumn - r = 2, 3764
+QSATURNIN.GroverOracle_256_in-place-MC_r3, 1372139, 344992, 540668, 0, 767, 400, 1025, 16640, in_place mixcolumn - r = 3, 3766
