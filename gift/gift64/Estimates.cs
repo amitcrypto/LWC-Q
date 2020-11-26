@@ -1,5 +1,6 @@
 // Copyright (c) IIT Ropar.
 // Licensed under the free license.
+
 using System;
 using System.Collections.Generic;
 using Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators;
