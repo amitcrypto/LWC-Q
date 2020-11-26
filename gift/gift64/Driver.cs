@@ -1,5 +1,6 @@
 // Copyright (c) IIT Ropar.
 // Licensed under the free license.
+
 using System;
 
 using Microsoft.Quantum.Simulation.Core;
