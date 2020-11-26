@@ -1,5 +1,6 @@
-// Copyright (c) Microsoft Corporation.
-// Licensed under the MIT license.
+// Copyright (c) IIT Ropar.
+// Licensed under the free license.
+
 using System;
 
 using Microsoft.Quantum.Simulation.Core;
@@ -27,9 +28,9 @@ namespace cs
             Estimates.AddRoundTweakey_z3<QSKINNY.InPlace.AddRoundTweakey_z3>("widest = true - state size is the same for all", free_swaps);
             
             
-            Estimates.TweakeyUpdate<QSKINNY.InPlace.TweakeyUpdate>("in_place = true, round = 40, ", 40, free_swaps); 
-            Estimates.TweakeyUpdate_z2<QSKINNY.InPlace.TweakeyUpdate_2>("in_place = true, round = 40, ", 48, free_swaps); 
-            Estimates.TweakeyUpdate_z3<QSKINNY.InPlace.TweakeyUpdate_3>("in_place = true, round = 40, ", 56, free_swaps); 
+            Estimates.TweakeyUpdate<QSKINNY.InPlace.TweakeyUpdate>("in_place = true - round = 40", 40, free_swaps); 
+            Estimates.TweakeyUpdate_z2<QSKINNY.InPlace.TweakeyUpdate_2>("in_place = true - round = 48", 48, free_swaps); 
+            Estimates.TweakeyUpdate_z3<QSKINNY.InPlace.TweakeyUpdate_3>("in_place = true - round = 56", 56, free_swaps); 
             
 
             Estimates.ShiftRows<QSKINNY.InPlace.ShiftRows>("widest = true - state size is the same for all", free_swaps); 
