@@ -1,0 +1,40 @@
+operation, CNOT count, 1-qubit Clifford count, T count, R count, M count, T depth, initial width, extra width, comment, full depth
+QGIFT.InPlace.GiftSbox, 66, 14, 28, 0, 0, 4, 4, 4, tower_field = false, 32
+QGIFT.InPlace.SubCells, 1056, 224, 448, 0, 0, 4, 64, 4, state size is the same for all, 32
+QGIFT.InPlace.PermBits, 0, 0, 0, 0, 0, 0, 64, 0, in_place = true - state size is the same for all, 0
+QGIFT.InPlace.AddRoundKey, 32, 0, 0, 0, 0, 0, 192, 0, widest = true - state size is the same for all, 1
+QGIFT.InPlace.KeySchedule, 0, 0, 0, 0, 0, 0, 128, 0, in_place = true - round = 28, 0
+QGIFT.InPlace.AddConstants, 0, 4, 0, 0, 0, 0, 64, 0, widest = true - state size is the same for all, 1
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, state size is the same for all, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 1, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 2, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 3, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 4, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 5, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 6, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 7, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 8, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 9, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 10, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 11, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 12, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 13, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 14, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 15, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 16, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 17, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 18, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 19, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 20, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 21, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 22, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 23, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 24, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 25, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 26, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 27, 33
+QGIFT.Round, 1088, 225, 448, 0, 0, 4, 192, 4, round = 28, 33
+QGIFT.Gift_128_in-place, 61056, 12768, 25088, 0, 0, 224, 256, 4, in_place, 1851
+QGIFT.GroverOracle_128_in-place-MC_r1, 61567, 13288, 25340, 0, 63, 224, 193, 1856, in_place mixcolumn - r = 1, 1850
+QGIFT.GroverOracle_128_in-place-MC_r2, 123387, 26560, 50684, 0, 127, 224, 257, 3840, in_place mixcolumn - r = 2, 1851
+QGIFT.GroverOracle_128_in-place-MC_r3, 185197, 39812, 76028, 0, 191, 224, 321, 5824, in_place mixcolumn - r = 3, 1853
