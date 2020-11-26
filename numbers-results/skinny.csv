@@ -5,9 +5,9 @@ QSKINNY.InPlace.AddConstants, 0, 4, 0, 0, 0, 0, 128, 0, in_place = true - state 
 QSKINNY.InPlace.AddRoundTweakey, 64, 0, 0, 0, 0, 0, 256, 0, widest = true - state size is the same for all, 4
 QSKINNY.InPlace.AddRoundTweakey_z2, 128, 0, 0, 0, 0, 0, 384, 0, widest = true - state size is the same for all, 8
 QSKINNY.InPlace.AddRoundTweakey_z3, 192, 0, 0, 0, 0, 0, 512, 0, widest = true - state size is the same for all, 12
-QSKINNY.InPlace.TweakeyUpdate, 0, 0, 0, 0, 0, 0, 128, 0, in_place = true, round = 40, , 0
-QSKINNY.InPlace.TweakeyUpdate_2, 8, 0, 0, 0, 0, 0, 128, 0, in_place = true, round = 40, , 2
-QSKINNY.InPlace.TweakeyUpdate_3, 8, 0, 0, 0, 0, 0, 128, 0, in_place = true, round = 40, , 2
+QSKINNY.InPlace.TweakeyUpdate, 0, 0, 0, 0, 0, 0, 128, 0, in_place = true - round = 40, 0
+QSKINNY.InPlace.TweakeyUpdate_2, 8, 0, 0, 0, 0, 0, 128, 0, in_place = true - round = 40, 2
+QSKINNY.InPlace.TweakeyUpdate_3, 8, 0, 0, 0, 0, 0, 128, 0, in_place = true - round = 40, 2
 QSKINNY.InPlace.ShiftRows, 0, 0, 0, 0, 0, 0, 128, 0, widest = true - state size is the same for all, 0
 QSKINNY.InPlace.MixWord, 48, 0, 0, 0, 0, 0, 32, 0, widest = true - state size is the same for all, 5
 QSKINNY.InPlace.MixColumns, 192, 0, 0, 0, 0, 0, 128, 0, widest = true - state size is the same for all, 5
