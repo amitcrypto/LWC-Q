@@ -1,5 +1,5 @@
-// Copyright (c) Microsoft Corporation.
-// Licensed under the MIT license.
+// Copyright (c) IIT Ropar.
+// Licensed under the free license.
 
 namespace QTests.SKINNY
 {
