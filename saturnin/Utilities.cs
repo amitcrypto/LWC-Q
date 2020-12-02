@@ -1,4 +1,4 @@
-// Copyright (c) 2020 Microsoft Corporation.
+// Copyright (c) Microsoft Corporation.
 // Licensed under MIT license.
 
 using System;
