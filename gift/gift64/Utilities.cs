@@ -1,4 +1,4 @@
-// Copyright (c) IIT Ropar.
+// Copyright (c) Microsoft Corporation. 
 // Licensed under the free license.
 
 using System;
