@@ -1,5 +1,5 @@
 // Copyright (c) Microsoft Coprporation.
-// Licensed under the free license.
+// Licensed under MIT license.
 
 using System;
 using System.Diagnostics;
