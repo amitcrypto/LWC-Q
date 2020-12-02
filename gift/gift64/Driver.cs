@@ -1,5 +1,5 @@
-// Copyright (c) IIT Ropar.
-// Licensed under the free license.
+// Copyright (c) 2020 Amit Kumar Chauhan, IIT Ropar.
+// Licensed under MIT license.
 
 using System;
 
