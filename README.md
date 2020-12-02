@@ -14,7 +14,7 @@ The grover-blocks project contains implementations of Grover oracles for exhaust
 - Subodh Bijwe
 
 ## References 
-[1] Amit Kumar Chauhan, Subodh Bijwe, and Somitra Kumar Sanadhya, "Quantum Search for Lightweight Block Ciphers: GIFT, SKINNY and SATURNIN", Under submission 2020.
+[1] Subodh Bijwe, and Amit Kumar Chauhan, and Somitra Kumar Sanadhya, "Quantum Search for Lightweight Block Ciphers: GIFT, SKINNY and SATURNIN", Preprint available at https://eprint.iacr.org/2020/1485.
 
 [2] Samuel Jaques, Michael Naehrig, Martin Roetteler, and Fernando Virdia, "Implementing Grover oracles for quantum key search on AES and LowMC". Preprint available at https://eprint.iacr.org/2019/1146.
 
