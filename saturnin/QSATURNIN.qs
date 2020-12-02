@@ -1,5 +1,5 @@
-// Copyright (c) CSE, IIT Ropar.
-// Licensed under the IIT Ropar license.
+// Copyright (c) 2020 IIT Ropar.
+// Licensed under MIT license.
 
 namespace QSATURNIN.InPlace // Implementing InPlace Saturnin round functions : SubCells, Nibble permutation, MixColumns 
 {
