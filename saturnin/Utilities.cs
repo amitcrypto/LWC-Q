@@ -1,5 +1,5 @@
-// Copyright (c) IIT Ropar.
-// Licensed under the free license.
+// Copyright (c) 2020 Microsoft Corporation.
+// Licensed under MIT license.
 
 using System;
 using System.Diagnostics;
