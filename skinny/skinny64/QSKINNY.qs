@@ -1,5 +1,5 @@
-// Copyright (c) IIT Ropar.
-// Licensed under the free license.
+// Copyright (c) 2020 IIT Ropar.
+// Licensed under MIT license.
 
 namespace QSKINNY.InPlace // Implementing InPlace-SKINNY round functions : SubCells, AddConstants, AddRoundTweakey, ShiftRows, MixColumns 
 {
