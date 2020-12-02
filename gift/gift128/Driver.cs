@@ -1,5 +1,5 @@
 // Copyright (c) IIT Ropar.
-// Licensed under the free license.
+// Licensed under MIT license.
 
 using System;
 
