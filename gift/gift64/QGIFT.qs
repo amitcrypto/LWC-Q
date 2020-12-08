@@ -568,7 +568,7 @@ namespace QGIFT
             for (i in 1..round)   
             {
                 // round i \in [1..28]  
-                Round(state, key, round, costing);   
+                Round(state, key, i, costing);   
             } 
         }
         adjoint auto;
