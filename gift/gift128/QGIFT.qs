@@ -566,10 +566,10 @@ namespace QGIFT
             // "round 0"
             QGIFT.InPlace.AddRoundKey(state, key); 
 
-            for (i in 1..40)
+            for (i in 1..round)
             {
                 // round i \in [1..40]
-                Round(state, key, round, costing);  
+                Round(state, key, i, costing);  
             } 
         }
         adjoint auto;
