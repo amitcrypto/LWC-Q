@@ -193,7 +193,7 @@ namespace QTests.GIFT
                 Set(_round_key[i], round_key[i]); 
             }
 
-            QGIFT.Round(in_state, round_key, 0, costing); 
+            QGIFT.Round(in_state, round_key, round, costing); 
 
             for (i in 0..63)
             {
